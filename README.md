@@ -2,6 +2,8 @@
 
 a simple react app that finds reactions to your GitHub issues, PRs, and comments using GitHub's GraphQL APIv4. [https://www.ghreaccs.com](https://www.ghreaccs.com)
 
+[https://ginglis.me/ghreaccs-graphql/](https://ginglis.me/ghreaccs-graphql/)
+
 ![https://yld.me/raw/ceKu.png](https://yld.me/raw/ceKu.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
