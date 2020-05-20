@@ -15,6 +15,7 @@ var style = {
   borderTop: "1px solid #E7E7E7",
   textAlign: "center",
   position: "fixed",
+  padding: "10px",
   left: "0",
   bottom: "0",
   width: "100%",
