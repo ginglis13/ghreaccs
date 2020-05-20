@@ -38,6 +38,7 @@ export default function SimpleTable() {
     const username = document.getElementById("user").value;
     if (!username){
       // maybe some "please provide a username" message
+      alert('Please provide a username');
       return;
     } 
 
@@ -55,6 +56,7 @@ export default function SimpleTable() {
       // username does not exist
       if(!data['data']['user']){
         // make some "error: user not found" result
+        alert('User not found.');
         return;
       }
       const issueComments = data['data']['user']['issueComments']['nodes'];
