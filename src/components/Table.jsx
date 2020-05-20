@@ -35,8 +35,9 @@ export default function SimpleTable() {
   };
 
   useEffect(() => {
+    if(page === 1) return;
     const username = document.getElementById("user").value;
-    if (!username){
+    if (!username && page !== 1){
       // maybe some "please provide a username" message
       alert('Please provide a username');
       return;
@@ -54,7 +55,7 @@ export default function SimpleTable() {
     }).then(r => r.json())
     .then( data => {
       // username does not exist
-      if(!data['data']['user']){
+      if(!data['data']['user'] && page !==1){
         // make some "error: user not found" result
         alert('User not found.');
         return;
