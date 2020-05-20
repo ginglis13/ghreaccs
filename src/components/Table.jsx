@@ -35,7 +35,7 @@ export default function SimpleTable() {
   };
 
   useEffect(() => {
-    const username = document.getElementById("username").value;
+    const username = document.getElementById("user").value;
     if (!username){
       // maybe some "please provide a username" message
       return;
@@ -104,7 +104,7 @@ export default function SimpleTable() {
   return (
     <div text-align="center">
       <center>
-    Username: <Input  id="username"></Input> <Button variant="contained" id="thebuttonyo" onClick={loadMoreData}>Go</Button>
+    Username: <Input  id="user"></Input> <Button variant="contained" id="thebuttonyo" onClick={loadMoreData}>Go</Button>
     <br>
     </br>
     <br>
@@ -115,7 +115,7 @@ export default function SimpleTable() {
         <TableHead>
           <TableRow>
             <TableCell></TableCell>
-            <TableCell align="right"><span aria-label='heart' role='img'>♥️</span></TableCell>
+            <TableCell align="right"><span aria-label='heart' role='img'>❤️</span></TableCell>
             <TableCell align="right"><span aria-label='hooray' role='img'>🎉</span></TableCell>
             <TableCell align="right"><span aria-label='thumbsup' role='img'>👍</span></TableCell>
             <TableCell align="right"><span aria-label='thumbsdown' role='img'>👎</span></TableCell>
