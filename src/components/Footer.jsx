@@ -10,12 +10,14 @@ import React from 'react';
 export default Footer;
 */
 var style = {
+  //backgroundColor: "#F8F8F8",
   backgroundColor: "#282c34",
   color: "white",
   borderTop: "1px solid #E7E7E7",
   textAlign: "center",
   position: "fixed",
-  padding: "10px",
+  fontSize: ".7em",
+  height: "100px",
   left: "0",
   bottom: "0",
   width: "100%",
@@ -35,7 +37,6 @@ function Footer({ children }) {
                 from the <a href='https://developer.github.com/v4/guides/resource-limitations/'>GitHub API V4</a>, 
                 only the
                 last 100 Comments, 100 Issues, and 100 PRs can be found. 
-                <br></br>
                 On each of those, only the last 100 reactions can be found. For more info, see <a href='/about'>About</a>.
                 <p>
                 © <a href="https://github.com/ginglis13"> Gavin Inglis</a>, 2020

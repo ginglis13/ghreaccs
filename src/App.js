@@ -16,6 +16,7 @@ import './App.css';
 
 function App() {
   return (
+    <div>
     <Router>
       <div>
         <nav className="primary-aside">
@@ -49,8 +50,9 @@ function App() {
           </Route>
         </Switch>
       </div>
-        <Footer />
     </Router>
+        <Footer />
+        </div>
   );
 }
 
