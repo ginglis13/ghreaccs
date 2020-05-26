@@ -38,7 +38,7 @@ class About extends React.Component {
               Since it's probably obvious I'm not the best frontend developer,
               feel free to make this site better by opening a PR over at <a href='https://github.com/ginglis13'>the repo</a> (
               I'll probably react to your issue/pr and you can see it update here 😄).
-              A more detailed post about this can be found at my <a href='https://ginglis.me'>blog</a>.
+              A more detailed post about this can be found at my <a href='https://ginglis.me/ghreaccs-graphql/'>blog</a>.
           </p>
           </div>
       )
