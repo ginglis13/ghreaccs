@@ -17,7 +17,7 @@ var style = {
   textAlign: "center",
   position: "fixed",
   fontSize: ".7em",
-  height: "100px",
+  height: "50px",
   left: "0",
   bottom: "0",
   width: "100%",
@@ -33,11 +33,7 @@ function Footer({ children }) {
       <div>
           <div style={phantom} />
           <div style={style}>
-                * Due to rate limitations 
-                from the <a href='https://developer.github.com/v4/guides/resource-limitations/'>GitHub API V4</a>, 
-                only the
-                last 100 Comments, 100 Issues, and 100 PRs can be found. 
-                On each of those, only the last 100 reactions can be found. For more info, see <a href='/about'>About</a>.
+                For more info, see <a href='/about'>About</a> for rate limitations.
                 <p>
                 © <a href="https://github.com/ginglis13"> Gavin Inglis</a>, 2020
                 </p>
