@@ -43,7 +43,6 @@ function App() {
           <div className="App">
             <h2><span role="img" aria-label="GitHub Reaccs">🚀GitHub Reaccs🚀</span></h2>
             <h4>Find out how people have been reacting to your PRs, Issues, and Comments on GitHub!*</h4>
-              {/*oliviertassinari*/}
               {/*<p>note: some requests will take a few seconds depending on the total number of reactions...</p>*/}
               <SimpleTable data={fetchResults}/>
           </div>
